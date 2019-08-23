@@ -1,3 +1,6 @@
+html {
+  max-height: 90vh;
+}
 body {
   margin: 0;
   padding: 0;
@@ -9,9 +12,19 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
+  margin-top: 90px;
   background: #fff;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header p{
+  margin-top: 50px;
 }
 
 .grid-view {
@@ -26,20 +39,15 @@ main {
 
 .grid-view div.card.ui {
   margin: 1.25rem;
+  box-shadow: 3px 2px 8px dimgrey;
 }
-/*
+
 .main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
+  margin-top: 25px;
+}
 
 header h1 {
   text-align: center;
 }
 
-.location-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+
